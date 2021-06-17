@@ -1,40 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link para referenciar a página de styles do CSS -->
+    <link rel="stylesheet" href="assets/styles/styles.css">
+
     <title>Meu perfil</title>
 </head>
+
 <body>
-    <ul>
+    <ul id="menu">
         <li>
-            <a href="index.html">Home</a>
+            <a href="index.html">HOME</a>
         </li>
         <li>
-            <a href="contato.html">Contato</a>
+            <a href="contato.html">CONTATO</a>
         </li>
     </ul>
-    <h1>Entre em contato comigo!</h1>
+    <div class="adress-title">
+        <h1 class="center">Entre em contato comigo!</h1>
+    </div>
+    <div class="container">
+        <!-- Fazendo um forms-->
+        <div>
+            <form>
+                <h2 class="adress-title2"> Mande uma mensagem para mim: </h2>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome"> <br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="text" id="email"> <br>
+                <br>
+                <label for="assunto">Assunto:</label> <br>
+                <textarea name="assunto" id="assunto" cols="30" rows="5"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </form>
+        </div>
 
-    <!-- Fazendo um forms-->
-    <form>
-        <label for="nome">Nome:</label>
-        <input type="text"id="nome"> <br>
-        <br>
-        <label for="email">Email:</label>
-        <input type="text"id="email"> <br>
-        <br>
-        <label for="assunto">Assunto:</label> <br>
-        <textarea name="assunto" id="assunto" cols="30" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-        <h2>Endereço:</h2>
-        <p>Av.Paulista, 1000 - Bela Vista</p>
-        <p>São Paulo, SP.</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.09816913739!2d-46.654131648903814!3d-23.56491746753476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5994f2e15a7d%3A0xdeb92126793e5e90!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-PT!2sbr!4v1623856673507!5m2!1spt-PT!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="ml-50">
+            <div class="adress-text">
+                <p>Av.Paulista, 1000 - Bela Vista</p>
+                <p>São Paulo, SP.</p>
+            </div>
 
-    </form>
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.09816913739!2d-46.654131648903814!3d-23.56491746753476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5994f2e15a7d%3A0xdeb92126793e5e90!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-PT!2sbr!4v1623856673507!5m2!1spt-PT!2sbr"
+                    width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer>
+        <div class="container">
+            <a href="https://www.instagram.com/madamechelle/" target="_blank"><img class="tm-social" src="assets/img/instagram.png" alt="Logo do Instagram"></a>
+            <a href="https://github.com/chellebernardo" target="_blank"><img class="tm-social" src="assets/img/github.png" alt="Logo do GitHub"></a>
+            <a href="https://www.linkedin.com/in/michelle-bernardo-2a2182156/" target="_blank"><img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedin"></a>
+
+        </div>
+        <p class="center"> Todos os direitos reservardos: Michelle Bernardo &copy</p>
+    </footer>
 </body>
+
 </html>

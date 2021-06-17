@@ -1,0 +1,93 @@
+/*Estilos da página index html*/
+.center {
+    text-align: center;
+}
+
+.p1-pink {
+    font-size: 30px;
+    color: #F8589B;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p2 {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-page {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1e909b;
+}
+.sub-title {
+    font-size: 15px;
+    font-family: 'Lucida Sans';
+    color: #1e909b;
+}
+.p-30 {
+    padding: 30px;
+}
+.wh-300 {
+    height: 300; /*Para dimensionar uma imagem*/
+    width: 300;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+.tm-social {
+    width: 35px;
+    height: 35px;
+    padding: 20px;
+}
+#menu li{
+    display: inline;
+    padding: 20px;
+    justify-content: center;
+}
+#menu li a {
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F8589B;
+    font-size: 30px;
+}
+#menu li a:hover {
+    color: #1e909b;
+}
+
+
+
+/* tag inline
+<p style="font-size: 16px;"></p> */
+
+/*Estilos da página contato html*/
+
+.adress-title {
+    font-size: 15px;
+    font-family: 'Lucida Sans';
+    color: #1e909b;
+}
+.adress-title2 {
+    font-size: 15px;
+    font-family: 'Lucida Sans';
+    color: #F8589B;
+}
+.adress-text {
+    font-size: 15px;
+    font-family: Arial;
+    color: black;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
